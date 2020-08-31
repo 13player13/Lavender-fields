@@ -1,0 +1,229 @@
+.body {
+
+  font-family: "Montserrat";
+  background-color: #dbc6eb;
+
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  font-family: "Montserrat-Bold";
+}
+
+
+#top-container {
+    background-color: #dbc6eb;
+  text-align: center;
+  font-size: 3rem;
+  padding: 3% 3%;
+}
+
+/* navbar */
+#navbar{
+  background-color: #dbc6eb;
+}
+#title {
+
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  padding: 3% 3%;
+  height: 100px;
+}
+
+.container-fluid {
+  background-color: #dbc6eb;
+  text-align: center;
+  padding: 3%;
+}
+
+.a:hover {
+  color: #ffe4e4;
+}
+
+.btn:hover {
+  color: #ffe4e4;
+}
+
+#welcome-message {
+    background-color: #dbc6eb;
+  padding: 3% 3%;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item {
+  padding: 3% 3%;
+}
+/* ABOUT THE COMPANY */
+#company{
+
+    background-color: #dbc6eb;
+    padding: 3% 3%;
+    font-family: Montserrat;
+}
+.promise{
+  margin-top: 20px;
+text-align: center;
+}
+.btn-about{
+  margin-left: 5%;
+  margin-top: 90px;
+  background-color: #679b9b;
+  color:white;
+}
+
+.gallery-main {
+
+  width: 90%;
+  height: 240px;
+  padding: 3% 3%;
+}
+
+.button-gallery-main{
+  margin-left: 40%;
+  margin-top: 30px;
+  background-color: #679b9b;
+  color:white;
+}
+/* ABOUT THE FIELDS */
+#about {
+    background-color: #dbc6eb;
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.image-about {
+  padding: 3% 3%;
+  height: 300px;
+  width: 100%;
+
+}
+
+.message {
+  background-color: #dbc6eb;
+  text-align: center;
+  padding: 5px 5px;
+  font-family: Montserrat;
+}
+
+
+/* MEDIA-MAP */
+#media-maps {
+  background-color: #dbc6eb;
+  padding: 3% 3%;
+
+}
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  padding: 3% 3%;
+  background-color: #333333;
+  color: #fff;
+}
+
+
+
+
+/* CONTACT-US PAGE */
+.title-contact {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 3% 3%;
+  height: 100px;
+}
+.contact-info {
+  text-align: center;
+  font-size: 1rem;
+}
+#contact-info {
+  background-color: #dbc6eb;
+  padding: 3% 3%;
+}
+
+#contact-table {
+  background-color: #dbc6eb;
+  margin-left: 15%;
+}
+
+.contact-form {
+  margin-left: 5px;
+  padding-bottom: 100px;
+  width: 60%;
+}
+.message-area{
+  width: 100%
+}
+.form-name{
+  width: 100%;
+}
+
+/* LOGIN PAGE */
+#login-form {
+  background-color: #dbc6eb;
+  margin-left: 35%;
+  text-align: center;
+  font-size: 1rem;
+  padding: 3% 3%;
+}
+.login-body{
+    background-color: #dbc6eb;
+}
+.social-icon {
+  margin: 10px 10px;
+  padding: 20px;
+}
+
+/* SIGNUP */
+#signup {
+background-color: #dbc6eb;
+  text-align: center;
+  font-size: 1rem;
+  padding: 3% 3%;
+}
+
+/* GALLERY */
+.gallery-body{
+  background-color: #dbc6eb;
+}
+.img-gallery {
+  width: 100%;
+  height: 400px;
+  padding: 3% 3%;
+  margin-bottom: 5px;
+  border-style: groove;
+}
+/* SHOP */
+#shop{
+  background-color: #dbc6eb;
+}
+.image-shop{
+  width: 100%;
+  height: 300px;
+}
+.pricing-column{
+  width: 100%;
+  height: 100%;
+  padding: 3% 3%;
+}

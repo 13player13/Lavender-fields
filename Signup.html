@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Signup</title>
+    <!-- BOOTSTRAP -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- JS -->
+    <script src="https://kit.fontawesome.com/d2431b2246.js" crossorigin="anonymous"></script>
+  </head>
+  <div class="title-contact">
+
+  <h1>Top Hill Lavender Fields </h1>
+  </div>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Our shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact us form.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">Log-in</a>
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="Signup.html">Sign-up</a>
+              </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      </div>
+      <!-- SIHNUP -->
+      <section id="signup">
+          <div class="row">
+              <div class="col-md-6 offset-md-3 mt-5">
+            <h4 class="mb-3">Sign Up</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="firstName">First name</label>
+                  <input type="text" class="form-control" id="firstName" placeholder="Jhon" value="" required>
+                  <div class="invalid-feedback">
+                  Enter your  name
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="lastName">Surname</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="Smith" value="" required>
+                  <div class="invalid-feedback">
+                  Enter your surname
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="username">Username</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" id="username" placeholder="username" required>
+                  <div class="invalid-feedback" style="width: 100%;">
+                    Enter your right username
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="email">Email <span class="text-muted"></span></label>
+                <input type="email" class="form-control" id="email" placeholder="Your@gmail.com" required>
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="address2">Password </label>
+                <input type="text" class="form-control" id="password" placeholder="**********">
+              </div>
+
+              <div class="mb-3">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" id="address" placeholder=" 10 St.Maria street" required>
+                <div class="invalid-feedback">
+                Your Billing address
+
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">Country</label>
+                  <select class="custom-select d-block w-100" id="country" required>
+                    <option value="">Choose...</option>
+                    <option>United Kingdom</option>
+                      <option>United States</option>
+                        <option>Spain</option>
+                          <option>France</option>
+                  </select>
+
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="state">State</label>
+                  <select class="custom-select d-block w-100" id="state" required>
+                    <option value="">Choose...</option>
+                    <option>London</option>
+                      <option>New York</option>
+                        <option>Barcelona</option>
+                          <option>Paris</option>
+                  </select>
+
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="zip">ZIP</label>
+                  <input type="text" class="form-control" id="zip" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+              <button class="btn-signup btn-primary btn-lg btn-block" type="submit">Sign Up</button>
+            </form>
+          </div>
+          </div>
+      </section>
+    <hr>
+
+    <h2>Sign up </h2><br>
+    <h3>With your social media</h3><br>
+    <div id="icons-login">
+    <i class="social-icon fab fa-facebook-f fa-3x"></i>
+     <i class="fab fa-instagram-square fa-3x"></i>
+    <i class="social-icon fab fa-google-plus-square fa-3x"></i>
+
+    </div>
+
+    <hr>
+
+
+
+        <footer>
+        <div class="footer">
+           <p>@University of Roehampton</p>
+              <p>
+                    <a href="#">Home</a>
+              </p>
+            </div>
+          </footer>
+  </body>
+</html>
