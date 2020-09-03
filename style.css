@@ -251,5 +251,8 @@ p {
 @media (max-width:1028px) {
   #title {
     text-align: center;
+      .form-inline{
+    margin-left: 35%;
+  }
   }
 }
