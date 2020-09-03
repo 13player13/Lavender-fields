@@ -1,112 +1,114 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Login</title>
-    <!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- icon -->
-    <link rel="icon" href="favicon.ico">
-    <!-- JS -->
-    <script src="https://kit.fontawesome.com/d2431b2246.js" crossorigin="anonymous"></script>
-  </head>
-  <div class="title-contact">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- icon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- JS -->
+  <script src="https://kit.fontawesome.com/d2431b2246.js" crossorigin="anonymous"></script>
+</head>
+<div class="title-contact">
 
   <h1> Top Hill Lavender Fields </h1>
+</div>
+
+<body class="login-body">
+  <!-- NAVBAR -->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">LF</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">Our shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact us form.html">Contact us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Log-in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Signup.html">Sign-up</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
-  <body class="login-body">
-    <!-- NAVBAR -->
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LF</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- LOGIN -->
+  <section id="login-form">
+    <div class="row">
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="shop.html">Our shop</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact us form.html">Contact us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Login.html">Log-in</a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" href="Signup.html">Sign-up</a>
-              </li>
+      <div class="login col-lg-4">
+      </div>
 
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Search</button>
-          </form>
+      <div class="login col-lg-4">
+        <form>
+          <div class="form-group">
+            <label for="InputEmail1">Username</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label for="InputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+            <a href="Signup.html">Forgot password?</a>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+        <div class="login col-lg-4">
         </div>
-      </nav>
+        <hr>
+        <div class=" login-social-media">
+          <h2>Login </h2><br>
+          <h3>With your social media</h3><br>
+          <div id="icons-login">
+            <i class="social-icon fab fa-facebook-f fa-3x"></i>
+            <i class="fab fa-instagram-square fa-3x"></i>
+            <i class="social-icon fab fa-google-plus-square fa-3x"></i>
+          </div>
+        </div>
+        <hr>
       </div>
-      <!-- LOGIN -->
-    <section id="login-form">
-      <div class="row">
- <div class="login col-lg-4">
-   </div>
-
-    <div class="login col-lg-4">
-
-     <form>
-      <div class="form-group">
-        <label for="InputEmail1">Username</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted"></small>
-      </div>
-      <div class="form-group">
-        <label for="InputPassword1">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-      </div>
-      <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Remember me</label>
-        <a href="Signup.html">Forgot password?</a>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-
-    </form>
-       <div class="login col-lg-4">
-   </div>
-    <hr>
-
-    <h2>Login </h2><br>
-    <h3>With your social media</h3><br>
-    <div id="icons-login">
-    <i class="social-icon fab fa-facebook-f fa-3x"></i>
-     <i class="fab fa-instagram-square fa-3x"></i>
-    <i class="social-icon fab fa-google-plus-square fa-3x"></i>
-
     </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <p>@University of Roehampton</p>
+      <p>
+        <a href="#">Home</a>
+      </p>
+    </div>
+  </footer>
+</body>
 
-    <hr>
-      </div>
-        </div>
-        </section>
-        <footer>
-        <div class="footer">
-           <p>@University of Roehampton</p>
-              <p>
-                    <a href="#">Home</a>
-              </p>
-            </div>
-          </footer>
-  </body>
 </html>
